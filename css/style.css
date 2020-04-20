@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Playfair Display", "Ubuntu", serif;
+}
+
+.title {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.text {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* HEADER================== */
+.header {
+}
+
+/* Nav========================================= */
+.nav {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-top: 53px;
+  margin-bottom: 68px;
+  margin-right: 120px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: inherit;
+}
+.nav a:hover,
+.nav a:focus {
+  color: #03a9f4;
+}
+
+/* Container========================================= */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+  font-family: "Playfair Display";
+  text-align: center;
+}
+
+.subtitle {
+  color: #b4ad9e;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* article-====================================== */
+
+.article {
+  display: inline-block;
+  width: 420px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.article:nth-child(odd) {
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+
+/* BUTTON==================================== */
+
+.button-wrapper {
+  text-align: center;
+}
+
+.button {
+  border: 1px solid #626262;
+  width: 164px;
+  height: 60px;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 400;
+  color: #626262;
+  background-color: transparent;
+  /* padding: 21px 34px; */
+}
+
+.button button:hover,
+.button button:focus {
+  color: #03a9f4;
+}
